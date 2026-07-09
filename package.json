@@ -1,12 +1,47 @@
 {
   "name": "mcp-server-laravel-codebase",
   "version": "1.0.0",
-  "description": "MCP server for Laravel codebase introspection",
+  "description": "MCP server for Laravel codebase introspection — routes, models, controllers, migrations, and more",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "mcp-server-laravel": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "laravel",
+    "php",
+    "artisan",
+    "eloquent",
+    "database",
+    "ai",
+    "opencode",
+    "claude"
+  ],
+  "author": "Rendi Febrian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendi-febrian/mcp-server-laravel-codebase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rendi-febrian/mcp-server-laravel-codebase/issues"
+  },
+  "homepage": "https://github.com/rendi-febrian/mcp-server-laravel-codebase#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.15.1",
