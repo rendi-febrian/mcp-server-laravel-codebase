@@ -6,6 +6,8 @@
 [![CI](https://github.com/rendi-febrian/mcp-server-laravel-codebase/actions/workflows/ci.yml/badge.svg)](https://github.com/rendi-febrian/mcp-server-laravel-codebase/actions/workflows/ci.yml)
 [![GitHub stars](https://img.shields.io/github/stars/rendi-febrian/mcp-server-laravel-codebase?style=social)](https://github.com/rendi-febrian/mcp-server-laravel-codebase)
 
+![Demo](demo.gif)
+
 Laravel Codebase MCP Server — introspect routes, models, controllers, migrations, and more through the [Model Context Protocol](https://modelcontextprotocol.io). Works with any AI client that supports MCP: opencode, Claude Desktop, Cursor, and others.
 
 Stop grepping your Laravel codebase. Let your AI assistant answer "what routes exist?", "show me the User model", or "list all migrations" instantly.
